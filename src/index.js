@@ -4,8 +4,8 @@
  * @summary React specific utility functions.
  * @author Paul Walton
  */
-
-import { useState, useEffect } from "react";
+// eslint-disable-next-line no-unused-vars
+import React, { Fragment, useState, useEffect } from "react";
 
 /**
  * Merge React refs. If only one potential ref is passed in, returns that ref.
@@ -71,19 +71,19 @@ export const useStatefulProp = (prop) => {
 	return [state, setState];
 };
 
-/**
- * Convert newlines to HTML `<br>` elements.
- * @function
- * @arg {string} text
- * @returns {React.ReactFragment[]}
- */
-export const nl2br = (text) => {
-	return text.split("\n").map((item, key) => {
-		return (
-			<Fragment key={key}>
-				{item}
-				<br />
-			</Fragment>
-		);
-	});
-};
+// /**
+//  * Convert newlines to HTML `<br>` elements.
+//  * @function
+//  * @arg {string} text
+//  * @returns {React.ReactFragment[]}
+//  */
+// export const nl2br = (text) => {
+// 	return text.split("\n").map((item, key) => {
+// 		return (
+// 			<Fragment key={key}>
+// 				{item}
+// 				<br />
+// 			</Fragment>
+// 		);
+// 	});
+// };
