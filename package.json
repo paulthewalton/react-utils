@@ -1,14 +1,14 @@
 {
-	"name": "js-utils",
+	"name": "react-utils",
 	"version": "1.1.0",
-	"description": "Vanilla JS utility functions and snippets with wide cross-browser compatibilty. May need transpiling, but doesn't use any APIs not supported by IE 10 (except for Promises, polyfill that good stuff).",
+	"description": "VSimple, easy to understand (hopefully!) utils for working with React.",
 	"author": "Paul Walton",
 	"license": "MIT",
 	"repository": {
-		"url": "https://github.com/pwalton/js-utils",
+		"url": "https://github.com/pwalton/react-utils",
 		"type": "git"
 	},
-	"homepage": "https://github.com/pwalton/js-utils#readme",
+	"homepage": "https://github.com/pwalton/react-utils#readme",
 	"browserslist": [
 		">= 0.1% in CA",
 		">= 0.5%",
@@ -40,6 +40,7 @@
 		"gulp-eslint": "^6.0.0",
 		"gulp-if": "^3.0.0",
 		"jest": "^26.1.0",
+		"js-utils": "github:paulthewalton/js-utils#main",
 		"jsdoc-to-markdown": "^6.0.1",
 		"prettier": "^2.0.5",
 		"react": "^16.13.1"

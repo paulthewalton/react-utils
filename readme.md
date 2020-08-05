@@ -1,6 +1,6 @@
-# JS Utils
+# React Utils
 
-> Simple, easy to understand (hopefully!) Vanilla JS utils. Written in ES6 syntax but API compatible down to IE 10.
+> Simple, easy to understand (hopefully!) utils for working with React.
 
 ---
 
@@ -9,7 +9,6 @@
 These utility & helper functions should:
 
 - be small and relatively simple, hopefully easy to understand and read through
-- not have any dependancies, although may be tailored for use with certain frameworks or applications
 - be API compatible with a wide array of browsers (see browserlist in `package.json`)
 
 ## API & Features
